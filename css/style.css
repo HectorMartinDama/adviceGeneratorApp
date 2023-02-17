@@ -26,14 +26,14 @@ h3 {
 }
 
 .card {
-  max-width: 340px;
+  width: 340px;
   min-height: 315px;
   background: hsl(217, 19%, 24%);
   border-radius: 1rem;
 }
 @media (min-width: 1440px) {
   .card {
-    min-width: 540px;
+    width: 540px;
     min-height: 330px;
   }
 }
