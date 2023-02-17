@@ -22,27 +22,29 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
+
+
+
+### Api Request
+```js
+function getApi(){
+    fetch('https://api.adviceslip.com/advice/' + Math.floor(Math.random() * 200))
+    .then(res => res.json())
+    .then(res =>  {
+        document.getElementById("phrase").innerHTML= '"' + res.slip.advice + '"'
+        document.getElementById("id").innerHTML= 'ADVICE #'+ res.slip.id
+    })
+    .catch(err => console.log(err))
+}
+```
+
+
 ### Screenshot
 
 ![](./screenshot/desktop.png)
 ![](./screenshot/mobile.png)
 
 
-
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 ### Links
 
