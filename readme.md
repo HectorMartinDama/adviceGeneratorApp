@@ -42,7 +42,7 @@ function getApi(){
 ### Screenshot
 
 ![](./screenshot/desktop.png)
-![](./screenshot/mobile.png)
+![](./screenshot/mobile.jpg)
 
 
 
