@@ -34,7 +34,6 @@ h3 {
 @media (min-width: 1440px) {
   .card {
     min-width: 540px;
-    max-width: 540px;
     min-height: 330px;
   }
 }
